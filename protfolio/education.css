@@ -1,0 +1,55 @@
+
+#education{
+    padding:80px;
+    color:white;
+    background-color: #1b1b1b;
+}
+
+.education-card{
+    width:500px;
+    padding:25px;
+    margin: 20px;
+    border-radius:15px;
+    background:#1b1b1b;
+    box-shadow:0 0 20px rgba(255,0,0,.4);
+}
+
+.education-card:hover{
+    transform:scale(1.05);
+    transition: 0.5s all ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .education-card{
+        width: 80%;
+    }
+}
+
+.education-card h2{
+    color:#ff4d4d;
+}
+
+.education-card h3{
+    margin:10px 0;
+}
+
+.education-card p{
+    margin:8px 0;
+}
+
+
+.back{
+    text-align: center;
+margin-top: -70px;
+background-color: #1b1b1b;
+}
+.back a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.back a:hover{
+    color: red;
+    transition: 1s;
+}
+
